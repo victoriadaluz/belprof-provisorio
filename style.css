@@ -12,6 +12,7 @@ body {
     background-attachment: fixed;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
+    font-size: medium;
     width: 100%;
     display: flex;
     min-height: 100vh;
@@ -41,7 +42,7 @@ body {
 
 .form__input {
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 0.9rem;
     padding: .8em 1em;
     outline: none;
     border: none;
@@ -151,7 +152,7 @@ body {
 
 .social-bar ul li a {
     display: inline-block;
-    color: #fff;
+    color: rgb(0, 0, 0);
     background: #000;
     padding: 10px 15px;
     text-decoration: none;
@@ -163,7 +164,7 @@ body {
 /* Establecemos los colores de cada red social, aprovechando su class */
 
 .social-bar ul li .icon-store {
-    background: #ae181f;
+    background: #ffffff;
 }
 
 .social-bar ul li .icon-instagram {
