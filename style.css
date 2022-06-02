@@ -171,7 +171,7 @@ body {
 }
 
 .social-bar ul li a:hover {
-    background: #000;
+    background: rgb(78, 78, 78);
     /* Cambiamos el fondo cuando el usuario pase el mouse */
     padding: 10px 30px;
     /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
