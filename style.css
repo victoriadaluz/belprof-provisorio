@@ -86,7 +86,7 @@ body {
     align-items: flex-end;
     z-index: 100;
 }
-
+/*
 .social-bar a{
     position: fixed;
     right: 0;
@@ -97,13 +97,7 @@ body {
     align-items: flex-end;
     z-index: 100;
 }
-.social-bar img{
-    width: 1em;
-    height: 1em;
-    display: inline-block;
-    text-decoration: none;
-}
-
+*/
 .icon {
     color: rgb(199, 237, 255);
     text-decoration: none;
@@ -121,7 +115,7 @@ body {
 }
 
 .icon-store{
-    background: rgb(255, 255, 255);
+    background: rgb(139, 139, 139);
     border-radius: 1rem 0 0 0;
 }
 
