@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:ital,wght@1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/belprofaver.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.form {
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5rem 1.5em;
+}
+
+.form__container {
+    width: 100%;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form__title {
+    text-align: center;
+    font-size: 1.9rem;
+    margin-bottom: .4em;
+}
+
+.form__input {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: 0.2em;
+}
+
+.form__input--message {
+    resize: none;
+    padding: 1.8em 1em;
+    margin-bottom: .5em
+}
+
+.form__cta {
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #e6007e;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.form__container p {
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 200;
+    padding-bottom: 5px;
+
+}
+
+.social-bar {
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.social-bar a{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.social-bar img{
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon {
+    color: rgb(199, 237, 255);
+    text-decoration: none;
+    padding: .7rem;
+    transition: all .5s;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+.icon-instagram {
+    background: #c203a2;
+    border-radius: 1rem 0 0 0;
+
+}
+
+.icon-store{
+    background: rgb(255, 255, 255);
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:first-child {
+    border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+    border-radius: 0 0 0 3rem;
+}
+
+.icon:hover {
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+@media (max-width: 450px) {
+    .form {
+        padding: 3.5em 1em;
+    }
+}
